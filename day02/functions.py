@@ -7,7 +7,6 @@ import numbers
 
 # Non-return value function
 def display_message():
-    print('hello Cydeo')
     print('hello world')
 
 
@@ -112,7 +111,7 @@ print(':Function Overloading:')
 def concat(a: str, b, c='', d='', e=''):
     print(f'{a} {b} {c} {d} {e}'.strip())
 
-concat('Cydeo','School')
+concat('School')
 concat('Python',3,2.5)
 concat('Python',3,2.5,True)
 concat('Python',3,2.5,True,False)
