@@ -42,7 +42,7 @@ print(type(s5)) #reversed
 # print(s5)
 
 
-s7 = 'CYDEO SCHOOL'
+s7 = 'SCHOOL'
 #str(reversed(s7))
 
 print('-------------------- Str methods ----------------------')
@@ -108,7 +108,7 @@ print(s.isalpha())
 s = '1'
 print(s.isdigit())
 
-s = 'Cydeo School'
+s = 'School'
 print(s.istitle())
 
 
