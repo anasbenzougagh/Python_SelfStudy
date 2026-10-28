@@ -8,8 +8,6 @@ comment3
 ...
 """
 
-
-print('Cydeo\nSchool')
 print('\tPython Programming')
 print('\\')
 
@@ -17,5 +15,3 @@ print('\\')
 print('I love \"Python\"')
 print('I love "Python"')
 
-print("I love \"CYDEO\"")
-print('I love \'CYDEO\'')
