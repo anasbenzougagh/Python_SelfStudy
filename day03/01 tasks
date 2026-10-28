@@ -25,7 +25,7 @@
 
 		1.4 Write a program that can display the palindrome strings from a list of String
 				Ex:
-					words = ['Java', 'Anna', 'python', 'Cydeo', 'Level']
+					words = ['Java', 'Anna', 'python', 'Level']
 
 					output:
 						Anna
