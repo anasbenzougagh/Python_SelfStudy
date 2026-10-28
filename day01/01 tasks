@@ -1,0 +1,283 @@
+1. Create a python file named employee_info. declare the following variables:
+                1. name 
+                2. age 
+                3. gender 
+                4. company 
+                5. jobTitle 
+                6. yearsOfExperience 
+                7. salary 
+                8. is_fullTime 
+                9. is_married 
+                10. employee_id 
+
+
+2. create a python file named FlightTicket, and declare the following variables:
+                1. from
+                2. to
+                3. ticketPrice
+
+    use concatenation to display the full info of the ticket
+    
+    ex:
+            Given Data:
+                from = "Las Vegas"
+                to = "McLean"
+                ticket_price = 425.5
+
+            Output:
+                From Las Vegas to McLean is $425.5
+
+
+3. Create a python file named ShippingAddress. Declare the following variables:
+                    name
+                    building_number
+                    street_name
+                    city
+                    state
+                    zip_code
+
+    Use concatenation to print the full shipping address
+
+        Ex:
+            Given data:
+                name = "Aaron Kissinger"
+                building_number = 13621A
+                street_name = "Legacy Circle"
+                city = "Fairfax"
+                state = "VA"
+                zip_code = 22030
+
+            Output:
+                Your shipping addrees is:
+                        Aaron Kissinger
+                        13621A Legacy Circle
+                        Fairfax, VA 22030
+
+
+
+4. Create a python file named Square, write a program that can calculate the area & perimeter of any given square 
+
+        Hint: side need to be given to calculate the area and perimeter of square
+            Ex:
+                Given Data:
+                    side = 5
+
+                output:
+                    Area of the square is equal to 25
+                    Perimeter of square is equal to 20
+                
+5. Create a python file named Rectangle, write a program that can calculate the area & perimeter of any given Rectangle
+
+        Hint: width and length need to be given to calculate the area and perimeter of rectangle
+            Ex:
+                Given Data:
+                    length = 5
+                    width = 2
+
+                output:
+                    Area of the rectangle is equal to 10
+                    Perimeter of rectangle is equal to 20
+
+6. Create a python file named KgToPounds, write a program that can convert kg to pounds 
+            Hints: 1 kg = 2.2 pounds
+
+            Ex:
+                Given data:
+                    kg = 100
+
+                output:
+                    100 kg is equal to 220 pounds
+
+7. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+            Hints: 1 gallon = 3.79 litters
+            Ex:
+                Given Data:
+                     gallon = 10
+
+                output:
+                    10 gallon is equal to 37.9 litters
+
+8. create a python file named phone_number and declare the following variables:
+            countryCode, areaCode, localNumber
+
+            use string concatenation to display the phone number
+            ex:
+                if  country_code = 1
+                    area_code = 703
+                    localNumber = 4512625
+
+                output:
+                    Your phone number is +1(703)-4512625
+
+9. Create a python file named birthday and create the following variable
+             name, birthDay, birthMonth, birthYear
+
+             use concatenation to display the birthday of the person
+
+                 if  name = "John"
+                     birth_day = 25
+                     birth_month = "April"
+                     birth_year = 1995;
+
+                 output:
+                     John was born on April/25/1995.
+
+
+10. Create a python file named shipping_address
+            Ask the user to enter the following info, and display the shipping address of the user:
+                    1. "Enter your full name"
+                     2. "Enter your building number"
+                     3. "Enter your street name"
+                     4. "Enter your city name"
+                     5. "Enter your state name"
+                     6. "enter your zip code"
+
+             Given data:
+                name = "Aaron Kissinger"
+                building_number = 13621A
+                street_name = "Legacy Circle"
+                city = "Fairfax"
+                state = "VA"
+                zip_code = 22030
+
+            Output:
+                Your shipping addrrees is:
+                        Aaron Kissinger
+                        13621A Legacy Circle
+                        Fairfax, VA 22030
+
+
+11. Create a python file named employee_info:
+            Ask the user to enter the following info, and diplsay the user entered info:
+                        name (String)
+                        age (integer)
+                        gender (String)
+                        company (String)
+                        job title (String)
+                        salary (float)
+
+            Ex:
+                Given Data:
+                    name = "Daniel"
+                    age = 28
+                    gender = 'Male'
+                    company_name = 'Google Inc'
+                    job_title = "Scrum Master"
+                    salary = 90000
+
+
+                Output:
+                    Daniel is 28 years old, gender is Male
+                    Daniel works at Google Inc as a Scrum Master
+                    Daniel makes $ 90000 per year
+
+
+
+12. Create a python file named salary_calculator
+            1.1 Ask the user to enter the following info:
+                     1.1.1 "Enter your name"
+                     1.1.2 "Enter your hourly rate"
+                     1.1.3 "How many hours you work in a week?"
+
+            1.2 write a program that can can culate the salary based on the user given info
+                         Hint: number of weeks are 52
+                         
+                         salary = hourlyRate * weeklyHour * 52
+
+            Ex:
+                Given Data:
+                    name = Joshua
+                    hourly_rate = 40
+                    weekly_hours = 45
+                    
+                    
+                Output:
+                    Hello Joshua, your salary is $ 93600.00
+
+
+
+13.  Create a python file named grade_level1.  write a program that asks user to enter the grade level number,  determine and print which school type the person is in is in.
+            grade level and types are:
+                    1-5: Elementary school 
+                    6-8: Middle school
+                    9-12: High school
+                    13-16: College
+                    17-18: Grad School
+
+              Assume that the given number is 1 ~ 18
+
+
+14. Create a python file named grade_level2.  write a program that asks user to enter the grade level number,  determine and print which school type the person is in is in.
+            grade level and types are:
+                    1-5: Elementary school 
+                    6-8: Middle school
+                    9-12: High school
+                    13-16: College
+                    17-18: Grad School
+                    
+                    For Any Other grade: Invalid grade level given
+
+            NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+
+
+
+16. Create a python file named fizz_buzz, write a program that asks user to enter an integer and prints "Fizz" if the number is divisible by 3, prints "Buzz" if the number is divisible by 5, and prints FizzBuzz if the number is divisible by both 3 and 5.
+
+            Ex:
+                number 15
+
+            Output:
+                FizzBuzz
+
+
+17. Create a python file named crew_and_passanger, Given a number of people on the ship, determine how many need to be crew members and how many can be passengers. Print how many of each type there should be.
+    
+            Total: 50  ====> 20 crew, 30 passengers
+            Total: 75  ====> 25 crew, 50 passengers
+            Total: 100 ====> 30 crew, 70 passengers 
+            Any other number of people on the ship is not valid 
+
+            NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+
+
+
+18. Create a python file named grade, a variable named grade is given. write a program to print the following messages:
+            'A': excellent
+            'B': great job
+            'C': good
+            'D': passed
+            'F': failed
+            other wise: invalid
+
+            NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+
+
+19. Create a python file named age_groups, write a program that asks user to enter thier age and define the age groups of the user
+            age groups are:
+                    Teenager (< 21)
+                    Adult   (>=21 && <55 )    
+                    Senior  ( > 55 )
+
+             if age is negative or greater than 150, print invalid
+
+             NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+
+
+
+20. Create a python file named browser. Write a program that can display the name of selected browser
+        1. declare a String variable named browser_name
+        2. Assume that the valid browsers are: chrome, firefox, opera, safari, edge.
+        3. if the browser name does not match with the valid browser names, out put should be: Invalid Browser Name
+
+        Ex:
+            String browser = "chrome";
+
+        Output:
+            Chrome Browser is selected
+
+        Note: MUST use nested if
+
+
+21. Create a python file named number_to_words, Write a program that can convert user entered number (from 0~9) to words.
+
+    NOTE: MUST use ternary
