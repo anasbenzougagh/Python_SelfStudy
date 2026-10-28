@@ -92,7 +92,7 @@ number for 5 times, and print how many positive and negative numbers user entere
 
     8.3 Ask the user would you like to continue
             If "yes" --> repeat the previous steps
-            If "no" --> print "Thank you for using Cydeo Grade Calculator APP"
+            If "no" --> print "Thank you for using Grade Calculator APP"
 
             If user enters an invalid entry, ask the user to re-enter until user provides a valid entry
 
@@ -136,7 +136,7 @@ number for 5 times, and print how many positive and negative numbers user entere
         10.1 Write a program that can display the palindrome strings from a tuple of string
 
                 Ex:
-                    words = ('Java', 'Anna', 'python', 'Cydeo', 'Level')
+                    words = ('Java', 'Anna', 'python', 'Level')
 
                     output:
                         Anna
