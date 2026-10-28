@@ -59,7 +59,7 @@ print(s3)
 print('----------------------intersection-------------------')
 
 # intersection(): compares two sets and returns a new set which contains the common elements of two sets
-set1 = {'Java', 'Python', 'C#', 'Cydeo'}
+set1 = {'Java', 'Python', 'C#'}
 set2 = {'C++', 'Ruby', 'Swift', 'Java', 'Python'}
 
 set3 = set1.intersection(set2) # common elements among two sets
@@ -77,8 +77,8 @@ print(a1)                      # removes elements exists in next set
 print('---------------intersection_update----------------------')
 
 # intersection_update(): removes the uncommon elements of first & second sets
-b1 = {'Cydeo', 'Python', 'Java', 'C#', 'Wooden Spoon', 'Ruby', 'Swift'}
-b2 = {'Wooden Spoon', 'Python', 'Cydeo'}
+b1 = {'Python', 'Java', 'C#', 'Wooden Spoon', 'Ruby', 'Swift'}
+b2 = {'Wooden Spoon', 'Python'}
 
 b1.intersection_update(b2)
 print(b1)
