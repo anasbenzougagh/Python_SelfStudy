@@ -43,7 +43,7 @@ nums = list(map(lambda x: x * 10, nums))
 
 print(nums)
 
-names = ('Java', 'JAVA', 'java', 'ruby', 'swift', 'CydEO', 'javaSCRIPT')
+names = ('Java', 'JAVA', 'java', 'ruby', 'swift', 'javaSCRIPT')
 names = list(map(lambda s: str(s).upper(), names))
 print(names)
 
